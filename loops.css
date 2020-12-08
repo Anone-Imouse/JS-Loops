@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  font-family: sans-serif, "Open Sans", "Gotham Rounded", Roboto, Arial;
+  font-weight: 900;
+  background: #ff7;
+  /*flex-direction:column*/
+  text-align: center;
+}
+button {
+  font-size: 18px;
+  font-weight: 900;
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.3);
+  background: #eee;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+button:hover {
+  box-shadow: 7px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+}
+button:focus {
+  outline: none;
+}
